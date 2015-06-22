@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails Quote_It: development" uuid="46d567d6-acf9-4579-9303-46c227eca664">
+      <user-name>zain</user-name>
+      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+      <schema-pattern>Quote_It_development.pg_catalog Quote_It_development.public</schema-pattern>
+      <default-schemas>Quote_It_development.pg_catalog Quote_It_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails Quote_It: test" uuid="8aa012b2-626a-450f-aa6d-e876e85504dd">
+      <first-sync>true</first-sync>
+      <user-name>zain</user-name>
+      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+    </data-source>
+    <data-source name="Rails Quote_It: production" uuid="7bb2314c-122c-4376-bff2-8598bf1f513e">
+      <first-sync>true</first-sync>
+      <user-name>Quote_It</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffbdfffdfe5dffedfefdff5dfe3dffedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>
