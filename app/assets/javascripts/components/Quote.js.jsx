@@ -24,7 +24,7 @@ var Quote = React.createClass({
 
             <div className="quote">
                 <div className="row"> <img className="img-circle" src={imgUrl}/><span className="userName">{this.props.quote.user.name} </span></div>
-                <h2 className="quoteText">{this.props.quote.text}</h2>
+                <h3 className="quoteText">{this.props.quote.text}</h3>
                 <span className="quoteAuthor">-{this.props.quote.author}</span>
                 {delBtn}
                 <hr/>
