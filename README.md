@@ -16,7 +16,7 @@ Features
 > - Users Login through Facebook and twitter
 > - A list of all the quotes created by users.
 >- Posting a new quote.
->- Owner can delete theiw quotes
+>- Owner can delete their quotes
 >- Front-end is written in ReactJs
 
 
