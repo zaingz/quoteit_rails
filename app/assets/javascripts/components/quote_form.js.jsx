@@ -31,14 +31,41 @@ var QuoteForm = React.createClass({
     render: function() {
 
         return (
-            <div className='quoteForm'>
+            <div className='quoteForm row'>
                 <h4> Post something amazing</h4>
+
                 <form className="quoteForm" onSubmit={this.submitQuote}>
-                    <input type="text" placeholder="Say something nice..." ref="quote" />
-                    <input type="text" placeholder="author" ref="author" />
-                    <input type="submit" value="Post a Quote" />
+                    <div className="row">
+
+                        <div className="six columns">
+                            <label for="exampleMessage">Quote</label>
+                            <textarea className="u-full-width" placeholder="Life is a mystry" ref="quote"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div className="row">
+                        <div className="six columns">
+                            <label for="exampleMessage">Author</label>
+                    <input type="text"  className="u-full-width" placeholder="Shakspear" ref="author" />
+                            </div>
+                    </div>
+                    <input className="quoteSubmit button-primary" type="submit" value="Post a Quote" />
                 </form>
-            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
 
         );
 

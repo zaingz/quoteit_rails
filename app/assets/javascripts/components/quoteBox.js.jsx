@@ -58,10 +58,12 @@ var QuoteBox = React.createClass({
 
       return (
 
-        <div className="quoteBox">
-            <QuoteForm onQuoteSubmit={this.postQuote} current_user={this.props.user}/>
-            <hr/>
+        <div className="quoteBox container">
+
+
             <QuoteList quotes={this.state.quotes} current_user={this.props.user} onQuoteDelete={this.deleteQuote}/>
+
+            <QuoteForm onQuoteSubmit={this.postQuote} current_user={this.props.user}/>
         </div>
       );
     }
