@@ -6,6 +6,27 @@
   margin-top: 20px;
 
 }
+.img-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+}
+span.userName{
+position: absolute;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 26px;
+}
+div.container.nav{
+  margin-top: 10px;
+}
+
+span.quoteAuthor{
+  margin-left: 15px;
+  font-size: 18px;
+}
+
 .example-enter {
   opacity: 0.01;
   transition: opacity .5s ease-in;

@@ -14,12 +14,18 @@ var Quote = React.createClass({
             );
 
         }
+        var imgUrl;
+        if (this.props.quote.user.identity.provider==="facebook")
+            imgUrl= "https://graph.facebook.com/"+this.props.quote.user.identity.uid+"/picture?width=800";
+        else if (this.props.quote.user.identity.provider==="twitter")
+            imgUrl= "https://twitter.com/"+this.props.quote.user.name+"/profile_image?size=original"
+
         return (
 
             <div className="quote">
-                <h4>{this.props.quote.user.name} </h4>
-                <h2>{this.props.quote.text}</h2>
-                <span>{this.props.quote.author}</span>
+                <div className="row"> <img className="img-circle" src={imgUrl}/><span className="userName">{this.props.quote.user.name} </span></div>
+                <h2 className="quoteText">{this.props.quote.text}</h2>
+                <span className="quoteAuthor">-{this.props.quote.author}</span>
                 {delBtn}
                 <hr/>
             </div>
