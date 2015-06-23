@@ -33,7 +33,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIT_POSTGRESQL_DB_PORT/quoteit</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/d7q3esr8eve9q0</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-driver-license.txt</url>

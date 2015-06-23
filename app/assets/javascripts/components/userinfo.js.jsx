@@ -10,9 +10,9 @@ var UserInfo = React.createClass({
                 <div className="container nav">
                     <div className="u-pull-right">
                     <span>Your are not Logged in! </span>
-                    <a href="http://localhost:3000/users/auth/facebook"> Login through FB </a>
+                    <a href="https://quoteit-zaingz.herokuapp.com/users/auth/facebook"> Login through FB </a>
                     OR
-                    <a href="http://localhost:3000/users/auth/twitter"> Login through TW </a>
+                    <a href="https://quoteit-zaingz.herokuapp.com/users/auth/twitter"> Login through TW </a>
                         </div>
                 </div>
             );
