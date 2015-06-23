@@ -82,8 +82,12 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  username: nbpcjglybvcrdh
+  password: pyek70lnSzdw66X8nbbY1rzHeu
+  hostname: ec2-54-227-247-161.compute-1.amazonaws.com
   pool: 5
-  database: quoteit
-  host: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIT_POSTGRESQL_DB_PORT
-  username: adminhcmjcbf
-  password: MBcgNdE2KcWc
+  port: 5432
+  url: postgres://nbpcjglybvcrdh:pyek70lnSzdw66X8nbbY1rzHeu@ec2-54-227-247-161.compute-1.amazonaws.com:5432/d7q3esr8eve9q0
+  database: d7q3esr8eve9q0
