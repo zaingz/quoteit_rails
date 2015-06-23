@@ -80,7 +80,10 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: Quote_It_production
-  username: Quote_It
-  password: <%= ENV['QUOTE_IT_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: quoteit
+  host: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIT_POSTGRESQL_DB_PORT
+  username: adminhcmjcbf
+  password: MBcgNdE2KcWc
